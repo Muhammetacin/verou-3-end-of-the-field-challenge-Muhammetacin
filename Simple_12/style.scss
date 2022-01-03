@@ -10,15 +10,26 @@ body {
 }
 
 .card {
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     width: 355px;
     height: 440px;
-    margin: auto;
+    margin: 100px auto;
 
     .card-body {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-left: 30px;
+
+        p {
+            margin: 20px 0;
+            span {
+                padding: 10px 15px;
+                background-color: #6A8858;
+                border-radius: 50px;
+                color: white;
+                font-weight: 300;
+            }
+        }
     }
 }
