@@ -21,11 +21,15 @@
 
 .menu hr {
   border-color: rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .menu .menu-list ul {
+  list-style-type: none;
+}
+
+.menu .menu-category-list ul {
   list-style-type: none;
 }
 /*# sourceMappingURL=style.css.map */

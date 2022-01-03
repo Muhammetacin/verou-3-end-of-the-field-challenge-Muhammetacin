@@ -24,11 +24,17 @@
 
     hr {
         border-color: rgba($color: #000000, $alpha: 0.1);
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .menu-list {
+        ul {
+            list-style-type: none;
+        }
+    }
+
+    .menu-category-list {
         ul {
             list-style-type: none;
         }
