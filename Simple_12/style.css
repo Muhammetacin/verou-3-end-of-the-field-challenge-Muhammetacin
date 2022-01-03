@@ -39,5 +39,10 @@ body {
   border-radius: 50px;
   color: white;
   font-weight: 300;
+  font-size: 12px;
+}
+
+.card .card-body h3 {
+  padding-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */

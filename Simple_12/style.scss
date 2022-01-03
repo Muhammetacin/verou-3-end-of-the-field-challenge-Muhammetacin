@@ -23,13 +23,19 @@ body {
 
         p {
             margin: 20px 0;
+
             span {
                 padding: 10px 15px;
                 background-color: #6A8858;
                 border-radius: 50px;
                 color: white;
                 font-weight: 300;
+                font-size: 12px;
             }
+        }
+
+        h3 {
+            padding-top: 15px;
         }
     }
 }
