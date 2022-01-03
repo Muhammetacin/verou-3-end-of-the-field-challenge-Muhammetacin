@@ -38,6 +38,9 @@
 
                 li {
                     padding: 15px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
 
                     &:first-child {
                         background-color: #FFD400;
