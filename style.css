@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+}
+
+.buttons {
+  margin-top: 45vh;
+  margin-bottom: 45vh;
+  text-align: center;
+}
+
+.buttons button {
+  font-size: xx-large;
+  padding: 20px;
+  margin: 15px;
+}
+
+.buttons #simple {
+  background-color: #1188d3;
+  color: white;
+}
+
+.buttons #complex {
+  background-color: #9B0000;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
