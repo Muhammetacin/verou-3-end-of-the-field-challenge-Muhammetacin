@@ -23,4 +23,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.menu .menu-list ul {
+  list-style-type: none;
+}
 /*# sourceMappingURL=style.css.map */
