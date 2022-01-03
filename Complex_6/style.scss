@@ -28,15 +28,31 @@
         margin-bottom: 25px;
     }
 
-    .menu-list {
-        ul {
-            list-style-type: none;
-        }
-    }
+    .menu-lists {
+        display: flex;
+        flex-direction: row;
 
-    .menu-category-list {
-        ul {
-            list-style-type: none;
+        .menu-list {
+            ul {
+                list-style-type: none;
+
+                li {
+                    padding: 15px;
+
+                    &:first-child {
+                        background-color: #FFD400;
+                        border-radius: 5px;
+                        border: 1px solid #11053B;
+                    }
+                }
+            }
+        }
+    
+        .menu-category-list {
+            
+            ul {
+                list-style-type: none;
+            }
         }
     }
 }
