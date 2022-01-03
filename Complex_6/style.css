@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
 }
 
 .menu {
@@ -10,7 +16,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 897px;
   height: 337px;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-top: 25px;
 }
 
@@ -20,9 +26,10 @@
 }
 
 .menu hr {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.01);
   margin-top: 25px;
   margin-bottom: 25px;
+  margin-right: 25px;
 }
 
 .menu .menu-lists {
@@ -36,7 +43,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-right: 20px;
 }
 
 .menu .menu-lists .menu-list {
@@ -50,7 +56,7 @@
 }
 
 .menu .menu-lists .menu-list ul li {
-  padding: 15px;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,7 +72,11 @@
 .menu .menu-lists .menu-list ul li:first-child {
   background-color: #FFD400;
   border-radius: 5px;
-  border: 1px solid #11053B;
+  border: 2px solid #11053B;
+}
+
+.menu .menu-lists .menu-category-list {
+  margin: 0 40px 0 155px;
 }
 
 .menu .menu-lists .menu-category-list ul {
@@ -85,5 +95,14 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.github {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 922px;
+  height: 337px;
 }
 /*# sourceMappingURL=style.css.map */
